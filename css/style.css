@@ -253,7 +253,7 @@ nav ul li {
 
 .footer{
     width: 100%;
-    height: 200px;
+    height: 275px;
     background: #212530;
 }
 
@@ -281,6 +281,7 @@ nav ul li {
     }
     .content h1{
         font-size: 54px;
+        padding-top: 85px; 
     }
     #about{
         width: 75%;
