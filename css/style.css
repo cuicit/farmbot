@@ -18,16 +18,17 @@ body{
 }
 
 #logo{
+    width: 25px;
+    height: 38px;
+    background-image: url("../img/farmbot-logo.png");
+    background-repeat: no-repeat;
+    margin: 10px 0 0 20px;
     float: left;
-    font-size: 28px;
-}
-
-nav ul #logo li{
-    padding: 10px 0 0 20px;
 }
 
 #logo:hover{
-    font-weight: 700;
+    background-image: url("../img/logo-hover.png");
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -76,6 +77,10 @@ nav ul li {
     display: none;
 }
 
+.handle:hover{
+    font-weight: 700;
+}
+
 @media screen and (max-width: 1024px) {
     nav ul {
         max-height: 0;
@@ -99,8 +104,8 @@ nav ul li {
         float: none;
     }
     #logo{
-        float: none;
-        text-align: center;
+        margin: 10px 20px 0 0;
+        float: right;
     }
 }
 
@@ -277,14 +282,14 @@ nav ul li {
 
 @media screen and (max-width: 1024px){
     .content{
-        width: 75%;
+        width: 90%;
     }
     .content h1{
         font-size: 44px;
         padding-top: 85px; 
     }
     #about{
-        width: 75%;
+        width: 90%;
     }
     #about h1{
         font-size: 42px;
@@ -301,24 +306,12 @@ nav ul li {
         margin-left: 160px;
     }
     #our-story{
-        width: 75%;
+        width: 90%;
     }
     #our-story h1{
         font-size: 42px;
     }
     #our-story p{
         font-size: 22px;
-    }
-}
-
-@media screen and (max-width: 890px){
-    .content{
-        width: 90%;
-    }
-    #about{
-        width: 90%;
-    }
-    #our-story{
-        width: 90%;
     }
 }
